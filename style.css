@@ -1,0 +1,244 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+header{
+    width: 100%;
+    height: 85px;
+    background: linear-gradient(120deg, #7f70f5, #0ea0ff);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    top: 0;
+}
+
+header h2{
+    color: white;
+    /* padding: 25px;
+    padding-right: 300px; */
+}
+
+header .items ul{
+    display: flex;
+    gap: 10px;
+    /* padding: 25px;
+    padding-right: 300px; */
+}
+
+header .items ul li{
+    list-style: none;
+    /* font-size: 17px;
+    font-weight: bolder;
+    color: white; */
+}
+
+header .items ul li a {
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: bolder;
+    color: white;
+}
+
+header .button button{
+    padding: 10px 15px 10px 15px; 
+    font-size: 14px;
+    border-radius: 20px;
+    border: none;
+    background-color: #ed36ad;
+    color: white;
+    font-weight: bold;
+    /* padding-top: 15px; */
+}
+
+#hireme .img img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+#hireme{
+    /* width: 80vw; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 80vh;
+    margin: 0px auto;
+    gap: 30px;
+}
+
+#hireme p{
+    font-size: 24px;
+    width: 750px;
+    text-align: center;
+    font-weight: normal;
+    font-weight: lighter;
+}
+
+#hireme .hireme-button button{
+    padding: 10px;
+    color: #007bff;
+    font-size: 18px;
+    background: white;
+    border: 1px solid #007bff;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+
+.line{
+    width: 100%;
+    height: 0.5px;
+    background-color:rgb(216, 216,216);
+}
+
+main{
+    width: 70vw;
+
+}
+
+.main-cont{
+    display: flex;
+    justify-content: center;
+}
+
+.work-Exp-head h1{
+    text-align: center;
+    margin: 65px 0px;
+}
+
+.work-exp .job-role{
+    display: flex;
+    justify-content: space-between;
+}
+
+.work-exp{
+    margin-top: 30px;
+}
+
+.work-exp .job-role p{
+    color: gray;
+}
+
+.work-exp .company-name{
+    background: #0ea0ff;
+    display: inline-block;
+    padding: 2px 4px 2px 4px;
+    color: white;
+    border-radius: 20px;
+    margin-top: 10px;
+}
+
+.work-exp .about-company p{
+    font-size: 15px;
+    color: rgb(150, 149, 149);
+    margin-top: 14px;
+}
+
+.work-exp .about-company{
+    margin-bottom: 30px;
+}
+
+.education-head h2{
+    font-size: 37px;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.contact-info{
+    width: 300px;
+    height: 180px;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.075);
+    padding: 40px;
+}
+
+.card-center{
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+.card-center i{
+    color: rgb(209, 206, 206);
+}
+
+.card-center p{
+    color: rgb(72, 71, 71);
+}
+
+.contact-info h3{
+    font-size: 27px;
+    margin-bottom: 30px;
+}
+
+.contact-child-info .calender{
+    display: flex;
+    gap: 17px;
+    margin-bottom: 8px;
+    font-size: 18px;
+}
+.contact-child-info .contact{
+    display: flex;
+    gap: 17px;
+    margin-bottom: 8px;
+    font-size: 18px;
+}
+.contact-child-info .name{
+    display: flex;
+    gap: 17px;
+    margin-bottom: 8px;
+    font-size: 18px;
+}
+.contact-child-info .email{
+    display: flex;
+    gap: 17px;
+    margin-bottom: 8px;
+    font-size: 18px;
+}
+
+.hobbies h2 {
+    text-align: center;
+    font-size: 35px;
+    margin: 70px 0px;
+}
+
+.hobbies p {
+    text-align: center; /* Centers text horizontally */
+    font-size: 21px;
+    width: 80%;
+    margin: 0 auto;
+    color: gray;
+    margin-bottom: 40px; /* Adds space at the bottom */
+    margin-top: 60px;
+}
+
+
+.social-media-icons{
+    display: flex;
+    justify-content: center;
+    margin: 40px 0px;
+    gap: 10px;
+    font-size: 15px;
+}
+
+.social-media-icons i{
+    color: white;
+}
+
+.circle{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color:rgb(210, 210, 210);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
